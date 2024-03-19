@@ -28,7 +28,7 @@ public class Bird extends Animal{
         System.out.println("El pajaro aletea sus alas, da una vuelta en el aire volando, y vuelve a ti.");
     }
     public void stealSomething(String something){{
-        System.out.println("El pajaro se va volando, pasa un rato, y vuelve con algo en su pico, es "+(something)+"!");}
+        System.out.println("El pajaro se va volando, pasa un rato, y vuelve con algo en su pico, es un/unas/los "+(something)+"!");}
     }
     //Metodos heredados
     @Override
@@ -38,5 +38,12 @@ public class Bird extends Animal{
     @Override
     public void tongueShower() {
         System.out.println("El pajaro se baña con la lengua...");
+    }
+
+    @Override
+    public void info() {
+        super.info();
+        System.out.println("Especie: "+getRace());
+        System.out.println("Plumaje: "+getPlumage());
     }
 }

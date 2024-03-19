@@ -39,4 +39,11 @@ public class Dog extends Animal {
     public void tongueShower() {
         System.out.println("El perro se da un baño con la lengua...");
     }
+
+    @Override
+    public void info() {
+        super.info();
+        System.out.println("Raza: "+getBreed());
+        System.out.println("Tamaño: "+getSize());
+    }
 }

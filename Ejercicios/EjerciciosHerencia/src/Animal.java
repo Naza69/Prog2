@@ -41,4 +41,10 @@ public abstract class Animal {
     public void tongueShower(){
         System.out.println("El animal se baña con la lengua...");
     }
+    public void info(){
+        System.out.println("Animal: "+getClass());
+        System.out.println("Nombre: "+getName());
+        System.out.println("Edad: "+getAge());
+        System.out.println("Genero: "+getGender());
+    }
 }
