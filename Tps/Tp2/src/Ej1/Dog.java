@@ -1,3 +1,5 @@
+package Ej1;
+
 public class Dog extends Animal {
     private String breed;
     private boolean vaccinated;

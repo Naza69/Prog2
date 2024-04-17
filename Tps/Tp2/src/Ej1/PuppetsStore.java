@@ -1,3 +1,5 @@
+package Ej1;
+
 import java.util.InputMismatchException;
 import java.util.Objects;
 import java.util.Scanner;
@@ -10,7 +12,7 @@ public class PuppetsStore {
         this.capacity = capacity;
         this.puppets = new Animal[capacity];
         //for(int i = 0; i < puppets.length; i++){
-        //    puppets[i] = new Dog("Vacio", 0, "Vacio", 0, "Vacio", false);
+        //    puppets[i] = new Ej1.Dog("Vacio", 0, "Vacio", 0, "Vacio", false);
         //}
     }
 
@@ -210,7 +212,7 @@ public class PuppetsStore {
         //if(puppets.length > capacity){
         //    System.out.println("La tienda esta llena!");
         //} else {
-        //    puppets[position] = new Dog(animalToAdd.getName(), animalToAdd.getAge(), animalToAdd.getType(), animalToAdd.getPrice(), animalToAdd.getBreed(), animalToAdd.getStateVaccine());
+        //    puppets[position] = new Ej1.Dog(animalToAdd.getName(), animalToAdd.getAge(), animalToAdd.getType(), animalToAdd.getPrice(), animalToAdd.getBreed(), animalToAdd.getStateVaccine());
         //    position++;
         //}
     }
@@ -283,7 +285,7 @@ public class PuppetsStore {
     public void listAllAnimals(){
         for(int i = 0; i < puppets.length; i++){
             if(puppets[i] != null){
-                System.out.println("Animal Nro: "+i);
+                System.out.println("Ej1.Animal Nro: "+i);
                 System.out.println(puppets[i].toString());
             } else continue;
         }

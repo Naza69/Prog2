@@ -1,3 +1,5 @@
+package Ej1;
+
 public class Cat extends Animal {
     private String breed;
     private boolean vaccinated;

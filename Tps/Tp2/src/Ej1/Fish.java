@@ -1,3 +1,5 @@
+package Ej1;
+
 public class Fish extends Animal {
     private String familyOfFish;
     private String typeOfWater;

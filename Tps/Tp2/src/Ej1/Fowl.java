@@ -1,3 +1,5 @@
+package Ej1;
+
 public class Fowl extends Animal {
     private String species;
     private boolean canTalk;
